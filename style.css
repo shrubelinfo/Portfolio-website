@@ -1,0 +1,148 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*firs sectionn css*/
+.name{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+#text{
+    margin-left: 105px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+.name img{
+    width: 100%;
+    margin-top: 20px;
+}
+#jack{
+    font-size: 50px;
+    margin-top: -10px;
+margin-left: 10px;
+color: #FE59C2;
+}
+.btn{
+color: white;
+background-color: #FE59C2 ;
+border-radius: 5px;
+margin:5px;
+padding: 10px 30px;
+text-decoration: none;
+padding-top: 10px;
+}
+section{
+    height: 600px;
+}
+.info{
+    background-image: url(bg/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* biography section starded from here */
+
+.biography{
+    margin-top: 50px;
+    background-image: url(bg/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.biodata{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.biodata img{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#biodata_p{
+    margin-top: 10%;
+}
+#muted{
+    color: gray;
+}
+
+/*latest work section started from here*/
+
+.latest_work{
+    height: 500px;
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    background-image: url(bg/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.image img{
+width: 25%;
+margin: 10px;
+margin-top: 30px;
+}
+
+.latest_work h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.image{
+    display: block;
+    margin-left: 15%;
+}
+
+/*What Client are say section area*/
+.client{
+text-align: center;
+height: 900px;
+}
+.whatsay h1{
+font-size: 30px;
+}
+
+.whatsay h3{
+    margin-bottom: -20px;
+    margin-top: 80px;
+
+}
+.whatsay h4{
+    margin-bottom: 30px;
+    color: gray;
+}
+.email p{
+    color: gray;
+    margin-bottom: 50px;
+
+}
+.client{
+    background-image: url(bg/footer-bg.png);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
+.test{
+    height: 600px;
+    width: 500px;
+    background-color: #FE59C2;
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+ 
+}
